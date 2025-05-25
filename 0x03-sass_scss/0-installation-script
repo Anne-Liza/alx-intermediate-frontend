@@ -1,0 +1,34 @@
+# Sass Installation - ALX Intermediate Frontend
+
+## Objective:
+Set up Sass in a local development environment for styling with SCSS.
+
+## Project Directory:
+`0x03-sass_scss`
+
+---
+
+## Step-by-Step Installation
+
+### 1. Create Project Directory
+```bash
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+### 2. Install Node Version Manager (NVM)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+### 3. Reload Terminal or Run the Following
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+### 4. Install Node.js (e.g. version 20.16)
+nvm install 20.16.0
+nvm use 20.16.0
+
+### 5. Install Sass Using npm
+npm install sass -v 3.7.4
+
+### 6. Installed Sass via npm
+npm install -g sass
